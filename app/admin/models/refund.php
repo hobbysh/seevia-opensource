@@ -1,0 +1,9 @@
+<?php
+    class refund extends AppModel
+    {
+        /*
+     * @var $useDbConfig Êý¾Ý¿âÅäÖÃ
+     */
+    public $useDbConfig = 'oms';
+        public $name = 'Refund';
+    }

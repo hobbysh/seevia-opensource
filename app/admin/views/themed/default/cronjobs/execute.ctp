@@ -1,0 +1,1 @@
+<?php $s=implode('<br />',$reoutput); echo $s;?>

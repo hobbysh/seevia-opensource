@@ -1,0 +1,214 @@
+/*
+$Id: general.css 4767 2007-02-06 09:33:43Z Xeon[祺qi] $
+*/
+
+body,p,td,th,div {
+  font:12px Arial, Helvetica, sans-serif;
+  line-height:130%;
+}
+
+body,p,td,th,div {
+  color: #192E32;
+}
+
+html {
+  overflow-y:scroll;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align:center;
+  /*background: #ddeef2;*/
+  background:#F0EEEE;
+}
+
+p{
+  font-size:12px;
+  color:#555;
+  text-align:left;
+  margin:0px;
+}
+
+h2,h3,h4 {
+  width:530px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#333;
+  margin:20px 0 5px 0;
+}
+
+h4 {
+  font-size:12px;
+}
+
+.comment {
+  color: #888;
+}
+
+#setting h3,#checking h3 {
+  background:#80BDCB;
+  margin:1px;
+  padding:5px 0px;
+  color: #FFF;
+  text-align: left;
+}
+
+#logos {
+  margin:0 auto;
+  /*background:#298296;*/
+  background:#FFFFFF;
+}
+
+#logos-inside {
+  width:1000px;
+  text-align:left;
+  margin:0 auto;
+}
+#lang-menu {
+  height:21px;
+  padding-top:3px;
+  margin:0 0 20px 0;
+  background:url(../img/th_bg.gif) repeat-x top center;
+  color:#333;
+  border-bottom:1px solid #bbdde5;
+}
+
+#lang-menu-inside {
+  text-align:right;
+  display: block;
+  width:900px;
+  margin:0 auto;
+
+}
+#check_lock{display:none;height:60px;}
+#check_lock h3{width:660px;color:red;}
+#wrapper,#check_lock{
+  width:620px;
+  background:#f4fafb;
+  margin:0px auto;
+  border:1px solid #ccc;
+  padding-left:40px;
+}
+
+#copyright {
+  padding:10px;
+  margin:20px auto;
+  /*background:#f4fafb;*/
+  background:#E2E0E0;
+}
+
+#copyright-inside {
+  margin:auto;
+  text-align:center;
+}
+
+#install-btn {
+  padding-top: 5px;
+  clear: both;
+}
+
+input.button {
+  padding: 0;
+  margin: 2px 2px;
+  border: 1px solid #2D5082;
+  /*background: url(../img/button_bg.gif) repeat-x top center;*/
+  width:180px;
+  height:40px;
+  border-radius:4px;
+  font-size:16px;
+  cursor:pointer;
+  background:#fff;
+}
+.end_link{margin:28px 0 0;}
+a.button {
+  padding: 11px 45px;
+  margin: 2px 2px;
+  border: 1px solid #2D5082;
+/*  background: url(../img/button_bg.gif) repeat-x top center;
+  width:130px;
+  height:26px;
+*/  border-radius:4px;
+}
+th {
+  font:12px 宋体, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+form {
+  margin: 0px;
+  padding: 0px;
+}
+
+input, textarea, select {
+  font:12px 宋体, Arial, Helvetica, sans-serif;
+}
+
+input.p, label {
+  cursor:pointer;
+}
+a:visited {
+  color: #335B64;
+  text-decoration: none;
+}
+
+a:link {
+  color: #335B64;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EB8A3D;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #EB8A3D;
+  text-decoration: underline;
+}
+
+.850 {
+  width: 850px;
+}
+
+.list {
+  width:500px;
+  text-align: left;
+  margin:10px 30px;
+}
+
+.clear {
+  clear: both;
+  font-size: 0px;
+  margin: 0;
+  padding: 0;
+  display:block;
+}
+.name{width:80px;text-align:left;}
+.data{width:140px;text-align:left;}
+.account,.master_account{padding:0 0 0 20px;clear:both;text-align:left;}
+.account ul,.master_account ul{padding:0 0 0 5px;}
+.account ul li .name,.account ul li .data{float:left;}
+.account ul li .name{padding:0px 0 0;}
+.account ul li{list-style: none;width:450px;height:30px;}
+.master_account ul li .name,.master_account ul li .data{float:left;}
+.master_account ul li .name{padding:5px 0 0;}
+.master_account ul li{list-style: none;width:520px;height:30px;}
+.left10{margin:0 0 0 10px;}
+.custom_install_table{width:660px;margin:0 auto 100px;background:#fff;border:1px solid #ccc;height:350px;display:none;}
+input[type=checkbox]{margin:1px 5px 0 0;}
+#installing{float:left;width:200px;height:80px;}
+#installing,#install_end{display:none;}
+#error_info{position:relative;left:300px;top:108px;display:none;width:60px;}
+.check_system{margin:20px 0 0;}
+.custom_install{border:none;cursor:pointer;position:relative;left:250px;top:75px;background:none;}
+#js-recheck{display:none;}
+.finish,.admin_info{font-size:14px;}
+.e_msg1{float:left;width:480px;height:20px;}
+.e_img1{float:left;width:20px;height:20px;}
+.green{color:green;}
+.red{color:red;}
+.account ul li{margin-bottom:5px;}
+.master_account ul li{margin-bottom:2px;}
+.error_msg1 div,.error_msg2 div{margin-bottom:5px;}
+.end_link a:first-child{font-size:1.2em;background:#5eb95e;border-color:#5eb95e;color:#fff;}
+.end_link a{font-size:1.2em;background:#F37B1D;border-color:#F37B1D;color:#fff;font-weight:800;padding:8px 30px;text-decoration:none;}

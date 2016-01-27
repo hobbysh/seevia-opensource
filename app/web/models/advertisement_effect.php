@@ -1,0 +1,11 @@
+<?php
+
+class AdvertisementEffect extends AppModel
+{
+    /*
+     * @var $useDbConfig Êý¾Ý¿âÅäÖÃ
+     */
+    public $useDbConfig = 'cms';
+
+    public $name = 'AdvertisementEffect';
+}

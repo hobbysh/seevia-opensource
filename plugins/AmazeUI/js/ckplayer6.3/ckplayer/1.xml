@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ckplayer>
+	
+		<xl_qx>
+			<urls>http://s.yqvod.cn/YQVOD/spw/2013/3/23/22234_250k.mp4</urls>
+			<seleted>true</seleted>
+		    <enableds>true</enableds>
+		</xl_qx>
+		
+		<xl_bq>
+			<urls>http://s.yqvod.cn/YQVOD/spw/2013/3/23/20130323dfdsfsf.mp4</urls>
+			<seleted>false</seleted>
+		    <enableds>true</enableds>
+		</xl_bq>
+		
+		<xl_gq>
+			<urls>http://s.yqvod.cn/YQVOD/spw/2013/3/23/22234_512k.mp4</urls>
+			<seleted>false</seleted>
+		    <enableds>true</enableds>
+		</xl_gq>
+
+	</ckplayer>

@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+/.svn
+=======
+/media/files
+/media/users
+/media/photos
+/data/database.php
+/app/tools/data/seevia_allinone.sql
+/app/tools/data/v0.5-0.7.sql
+/app/web/controllers/tests_controller.php
+>>>>>>> 6a6890c742f77f4833e242105a2223a1681d7550

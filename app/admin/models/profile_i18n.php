@@ -1,0 +1,13 @@
+<?php
+
+class ProfileI18n extends AppModel
+{
+    /*
+    * @var $useDbConfig Êý¾Ý¿âÅäÖÃ
+    */
+    public $useDbConfig = 'default';
+    /*
+     * @var $name Profile 
+     */
+    public $name = 'ProfileI18n';
+}
